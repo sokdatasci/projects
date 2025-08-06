@@ -22,7 +22,7 @@ Each project will be stored in its own subfolder and include:
 ## 📁 Current Folders
 
 - [`shift-tip-calculator/`](shift-tip-calculator/)
-- - [`planner/`](planner/) 
+- [`planner/`](planner/) 
 
 ---
 
