@@ -28,12 +28,14 @@ Each project will be stored in its own subfolder and include:
 
 ## 📦 Planned Structure per Project
 
+```
 project-name/
 ├── data/         # Raw or processed datasets
 ├── notebooks/    # Jupyter notebooks for EDA, modeling, or analysis
 ├── src/          # Python scripts (functions, classes, or pipeline code)
 ├── results/      # Output plots, model scores, reports
 └── README.md     # Description of the project, goals, findings
+```
 
 ---
 
