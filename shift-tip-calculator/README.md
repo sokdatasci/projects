@@ -37,15 +37,19 @@ This is a Python-based mini program for managing daily worker shifts and calcula
 ## 📁 Project Structure
 
 shift-tip-calculator/
-├── data/
-│ ├── 2025-08-05.xlsx # Daily shift logs
-│ ├── employees.xlsx # Employee master list (with roles)
-│ └── tip_distribution.xlsx # Output file (future)
-├── src/
-│ ├── shift_calculator.py # Main logic for shifts and summary
-│ └── create_daily_shifts.py # Script to generate example Excel files
-├── README.md
-└── requirements.txt
+├── data/                          # All Excel files (input/output)
+│   ├── employees.xlsx             # Master employee list (with IDs, roles)
+│   ├── 2025-08-05.xlsx            # Example daily shift sheet (no date column)
+│   └── tip_distribution.xlsx      # Future: calculated tips output
+│
+├── src/                           # All source code
+│   ├── shift_calculator.py        # Adds shifts, calculates hours, exports
+│   ├── create_daily_shifts.py     # Script to generate test Excel files
+│   └── tip_distributor.py         # (Planned) Tip calculation logic
+│
+├── requirements.txt               # Dependencies: pandas, openpyxl
+├── README.md                      # Project overview, setup, and usage
+└── .gitignore                     # (Optional) Ignoring cache/temp files
 
 ---
 
