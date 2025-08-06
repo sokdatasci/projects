@@ -36,6 +36,7 @@ This is a Python-based mini program for managing daily worker shifts and calcula
 
 ## 📁 Project Structure
 
+```
 shift-tip-calculator/
 ├── data/                          # All Excel files (input/output)
 │   ├── employees.xlsx             # Master employee list (with IDs, roles)
@@ -50,6 +51,7 @@ shift-tip-calculator/
 ├── requirements.txt               # Dependencies: pandas, openpyxl
 ├── README.md                      # Project overview, setup, and usage
 └── .gitignore                     # (Optional) Ignoring cache/temp files
+```
 
 ---
 
