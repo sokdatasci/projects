@@ -21,7 +21,7 @@ Each project will be stored in its own subfolder and include:
 
 ## 📁 Current Folders
 
-- [`sample-project/`](sample-project/) – Placeholder folder showing the intended structure for future projects
+- [`shift-tip-calculator/`](shift-tip-calculator/) 
 
 ---
 
