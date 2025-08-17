@@ -23,7 +23,7 @@ Each project will be stored in its own subfolder and include:
 
 - [`shift-tip-calculator/`](shift-tip-calculator/)
 - [`planner/`](planner/) 
-
+- [`swing-trader-starter/`](swing-trader-starter/) 
 ---
 
 ## 📦 Planned Structure per Project
